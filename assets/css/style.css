@@ -1,0 +1,145 @@
+ul {
+  background: linear-gradient(BlueViolet, deepPink);
+  display: table;
+  width: 80%;
+  height: 70px;
+  margin: auto;
+  border-radius: 10px;
+  /*reflets*/
+  box-shadow: 0 5px 5px rgba(1, 1, 1, .5),
+  0 5px 7px rgba(1, 1, 1, .4),
+  0 7px 15px rgba(1, 1, 1, .4),
+  0 25px 25px rgba(1, 1, 1, .20);
+}
+ul li {
+  display: table-cell;
+  text-align: center;
+}
+ul li a {
+  display: block;
+  text-align: center;
+  color: orange;
+  text-decoration-style: double;
+  padding: 17px 17px 17px 17px;
+}
+a {
+  color: orange;
+  font-weight: bold;
+}
+/*paramétres pour les lettres en 3D*/
+.letter3D {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Exo";
+  color: #ce2748;
+  font-size: calc(40vw / 5);
+  /*taille des lettres*/
+  letter-spacing: .010em;
+  /*paramètre reflet pour mettre les lettres en 3D*/
+  text-shadow: 0 0 0 #dae80e,
+  .0025em .0025em 0 #dae80e,
+  .005em .005em 0 #dae80e,
+  .0075em .0075em 0 #dae80e,
+  .01em .01em 0 #dae80e,
+  .0125em .0125em 0 #dae80e,
+  .015em .015em 0 #dae80e,
+  .0175em .0175em 0 #dae80e,
+  .02em .02em 0 #dae80e,
+  .0225em .0225em 0 #dae80e,
+  .025em .025em 0 #dae80e,
+  .0275em .0275em 0 #dae80e,
+  .03em .03em 0 #dae80e,
+  .0325em .0325em 0 #ce4a27,
+  .035em .035em 0 #ce4a27,
+  .0375em .0375em 0 #ce4a27,
+  .04em .04em 0 #ce4a27,
+  .0425em .0425em 0 #ce4a27,
+  .045em .045em 0 #ce4a27,
+  .0475em .0475em 0 #ce4a27,
+  .05em .05em 0 #ce4a27,
+  .0525em .0525em 0 #ce4a27,
+  .055em .055em 0 #ce4a27,
+  .0575em .0575em 0 #ce4a27,
+  .06em .06em 0 #ce4a27,
+  .0625em .0625em 0 #ce4a27,
+  .065em .065em 0 #ce4a27,
+  .0675em .0675em 0 #ce4a27,
+  .07em .07em 0 #ce4a27,
+  .0725em .0725em 0 #ce4a27,
+  .075em .075em 0 #ce4a27,
+  .0775em .0775em 0 #ce4a27,
+  .08em .08em 0 #ce4a27,
+  .0825em .0825em 0 #ce4a27,
+  .085em .085em 0 #ce4a27,
+  .0875em .0875em 0 #ce4a27,
+  .09em .09em 0 #ce4a27,
+  .0925em .0925em 0 #ce4a27,
+  .095em .095em 0 #ce4a27,
+  .0975em .0975em 0 #ce4a27,
+  .1em .1em 0 #ce4a27
+}
+/*paramétres pour faire bouger au survol*/
+.front:hover {
+  transform: translate(200px);
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+.front:hover + .back {
+  transform: translate(200px);
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+/*paramétres des paragraphes*/
+p {
+  color: MediumOrchid;
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+}
+/*paramétres du h1*/
+h1 {
+  color: deepSkyBlue;
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  font-family: monospace;
+  font-size: 40px;
+}
+/*paramétres de l'image*/
+img {
+  width: 20%;
+  height: 300px;
+  float: left;
+}
+h2 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 40px;
+  margin-left: 10%;
+  padding: 10px;
+}
+.colorSpringGreen {
+  color: SpringGreen;
+}
+ol li {
+  color: MediumOrchid;
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+}
+.colorTeal {
+  color: Teal;
+}
+.colorCrimson {
+  color: Crimson;
+}
+.colorOrange {
+  color: orange;
+}
+.margin {
+  margin-left: 10px;
+}
+.marginLeft {
+  margin-left: 20px;
+}
