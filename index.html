@@ -4,12 +4,19 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Curriculum vitae</title>
 </head>
 <body>
+  <div class="container">
+  <div class="background_black">
+      <i class="fa fa-hand-paper-o hand fa-5x parameter_hand" aria-hidden="true"></i>
+      <i class="fa fa-hand-paper-o hand fa-5x parameter_hand2" aria-hidden="true"></i>
+    <h1 class="letter3D">Bienvenue</h1>
+    <p class="letter_3D">sur mon cv</p>
+  </div>
   <header>
-    <div class="container">
       <!--barre de navigation-->
       <ul>
         <li><a href="formations.html">Formation</a></li>
@@ -19,12 +26,12 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
       <!--texte 3D animé-->
-      <div class="letter3D front animationLetter">Bienvenue</div>
-      <div class="letter3D front animationLetter">sur mon cv</div>
     </header>
     <!--présentation du site + photo professionnel-->
+    <div class="d-flex justify-content-center">
+      <h2 class="presentation col-md-4">Présentation</h2>
+    </div>
     <img src="assets/img/jennifer.jpg" alt="Malleret Jennifer" placeholder="Malleret Jennifer">
-    <h1>Présentation</h1>
     <p>Je m'appelle Jennifer Malleret et je suis développeuse web junior, j'habite à caix. Dans
       mon site je vais vous présenter mon curriculum vitae qui va donc
       contenir différents onglets, mes formations exercer ou en cours, mes expériences,
@@ -35,11 +42,17 @@
       Si vous voulez imprimer ou télécharger mon CV papier vous pouvez
       le faire en cliquant <a href="assets/pdf/cv.pdf">ici</a>.
     </p>
-    <h2 class="colorSpringGreen">Mon objectif</h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="goal col-md-4">Mon objectif</h2>
+    </div>
     <p>Mon objectif étant d'obtenir mon titre professionnel d’Etat « Développeur-se web et web mobile » et devenir développeuse Web</p>
-    <h2 class="colorCrimson margin">Langue</h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="language col-md-4">Langue</h2>
+    </div>
     <p>Anglais niveau scoliare</p>
-    <h2 class="colorTeal margin">Atouts</h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="assets col-md-4">Atouts</h2>
+    </div>
     <p>
       <ol>
         <li>Disponible</li>
@@ -48,7 +61,9 @@
         <li>Courageuse</li>
       </ol>
     </p>
-    <h2 class="colorOrange marginLeft">Informations complémentaire</h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="information col-md-4">Informations complémentaire</h2>
+    </div>
     <p>En 2019 j'ai obtenue mon PSC1 • Prévention et secours civiques de niveau 1</p>
   </div>
 </body>
